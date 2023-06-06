@@ -175,3 +175,7 @@ footer {
     justify-content: center;
     background-color: rgb(126, 125, 125);
 }
+
+.greeting {
+    text-align: center;
+}
