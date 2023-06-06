@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+        <title>Mi primer Website</title>
+        <link rel="stylesheet" type="text/css" href="styles.css">
+    </head>
+
+    <body style="background: rgb(180, 180, 180)">
+        
+        <div class="container-nav">
+            <nav class="navbar" role="navigation">
+              <a href="#" class="brand">Mi página web</a>
+              <ul class="nav-links">
+                <li><a href="mi-primer-website.html">Inicio</a></li>
+                <li><a href="servicios.html">Acerca de</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+                <li><a href="registrate.html">Registrate</a></li>
+              </ul>
+            </nav>
+            <button class="button-menu-toggle">Menu</button>
+        </div>
+
+        <div class="container">
+           <h1 id="titulo">Bienvenidos a mi primer Website!</h1>
+        
+            <div id="row">
+                <div class="column">
+                  <section>
+                    <h2 class="subtitulo">Presentación:</h2>
+                    <p>
+                        Soy Maru, y esta es mi primera página web.
+                    </p>
+                    <p>
+                        Estoy aprendiendo desarrollo web para 
+                        crear sitios web visualmente atrapantes 
+                        y funcionales.
+                    </p>
+                  </section>
+                </div>
+                <div class="column">
+                  <section>
+                    <h2 class="subtitulo">Lo que se viene...</h2>
+                    <p>
+                        A lo largo de este curso, estaré aprendiendo 
+                        HTML, CSS y JavaScript. Estos lenguajes me 
+                        ayudarán a crear una base sólida en el desarrollo 
+                        web front-end.
+                    </p>
+                  </section>
+                </div>
+            </div>
+            <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/CLk7A7HXhYQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+
+        <footer>
+            <p>Este es el footer de mi página</p>
+            <button onClick="showAlert()" id="boton" aria-label="Haz click en mí">¡Haz click aquí!</button>
+        </footer>
+        
+        <script src="script.js"></script>
+    </body>
+</html>
